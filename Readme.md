@@ -1,7 +1,6 @@
 # Deep Auto Tracking Points.
 From working in the VFX industry I wanted to created a model that can automatically place tracking points for us in a match move.
 <img src="pftrackOriginal.jpg" width = 300>
-</>
 ## Results
 <img src="output.png" width = 300>
 

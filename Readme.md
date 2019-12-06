@@ -4,8 +4,6 @@ From working in the VFX industry I wanted to created a model that can automatica
 </>
 ## Results
 <img src="output.png" width = 300>
-<img src="pftrackOriginal.jpg" width = 300>
-</>
 
 
 ## Dataset

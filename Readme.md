@@ -2,7 +2,7 @@
 From working in the VFX industry I wanted to created a model that can automatically place tracking points for us in a match move.
 ## Results
 <img src="output.png" width = 300>
-<img src="pftrackOriginal" width = 300>
+<img src="pftrackOriginal.png" width = 300>
 </>
 
 

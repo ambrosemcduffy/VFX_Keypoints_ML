@@ -1,5 +1,5 @@
 # Deep Auto Tracking Points.
-From working in the VFX industry I wanted to created a model that can automatically place tracking points for us in a match-move.
+I wanted to created a model that can automatically place 2d tracking points on a face in PFtrack.
 <img src="pftrackOriginal.jpg" width = 500>
 ## Results
 <img src="output.png" width = 500>

@@ -1,5 +1,5 @@
 # VFX Facial Landmark Detection.
-===================================
+
 <img src="pftrackOriginal.jpg" width = 500>
 
 This App places predicts 2d tracking points on the face to be exported into VFX tracking package.

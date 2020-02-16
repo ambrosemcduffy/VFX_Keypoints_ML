@@ -1,24 +1,36 @@
-# Deep Auto Tracking Points.
-I wanted to created a model that can automatically place 2d tracking points on a face in PFtrack.
+# VFX Facial Landmark Detection.
+===================================
 <img src="pftrackOriginal.jpg" width = 500>
-## Results
-<img src="output.png" width = 500>
+
+This App places predicts 2d tracking points on the face to be exported into VFX tracking package.
 
 
-## Dataset
-I used a dataset of 100 images (quite small for a dataset,) but it seemed to perform the concept.
-For the trainSet I used 90 images, and the rest for inference. 
+Pre-requisites
+--------------
 
-
-## Packages that needs to be installed:
-There's a few packages one needs to install to get my **Network** to work.
 * numpy
 * pytorch
 * cv2
-* matplotlib
-## How to use the model
-In order to run my model go into the model.py and run. 
-This should bring in a prediction image, and visualize it for you.
+* matplotlib22.1.1
 
-# Conclusion
+Getting Started
+---------------
+
+In order to run the model go into the train.py and run
+~~~
+pred, losses, epochs_l = train(images, labels, 50)
+~~~
+It will return a prediction, error amount, and a list of epochs.
+
+for inference with a new image run the predict function.
+
+~~~
+predict('path_to_image')
+~~~
+
+Results
+-------
+<img src="output.png">
+
 The model seems to run well, but I would like to expand the dataSet a little more with crops, rotations, and expand the scale a lot more.
+

@@ -2,7 +2,7 @@
 
 <img src="pftrackOriginal.jpg" width = 500>
 
-This App places predicts 2d tracking points on the face to be exported into VFX tracking package.
+This App predicts 2d tracking points on the face to be exported into an VFX tracking package.
 
 
 Pre-requisites
